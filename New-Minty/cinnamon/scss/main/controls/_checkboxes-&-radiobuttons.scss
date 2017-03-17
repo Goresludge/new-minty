@@ -6,12 +6,11 @@
     .#{$v} {
         CinnamonGenericContainer {
             spacing: .2em;
-            min-height: 17px;
+            min-height: 16px;
         }
 
         StBin {
-            width: 17px;
-            height: 17px;
+            @include size(16px);
             background-image: url("img/controls/#{$v}.svg");
         }
 
